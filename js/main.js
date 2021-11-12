@@ -67,3 +67,25 @@ for (let i=0; i<everyone.length; i++){
     console.log(everyone);
 }
 
+//Class
+class Person{
+    constructor(firstName, lastName, date){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.date = date;
+    }
+
+    getBirthYear(){
+        return this.date.getFullYear();
+    }
+
+    getFullName(){
+        return `${this.firstName} ${this.lastName}`;
+    }
+}
+
+const person1 = new Person('Joshua','Salinas','19/06/1998');
+const person2 = new Person('Francisco','Salinas','10/09/1994');
+
+console.log(person2.getFullName());
+console.log(person1);
