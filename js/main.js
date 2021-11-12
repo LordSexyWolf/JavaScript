@@ -67,7 +67,7 @@ for (let i=0; i<everyone.length; i++){
     console.log(everyone);
 }
 
-//Class
+//Class and objects
 class Person{
     constructor(firstName, lastName, date){
         this.firstName = firstName;
